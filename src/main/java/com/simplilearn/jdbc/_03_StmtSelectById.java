@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 import com.simplilearn.jdbc.bean.User;
 
-public class _02_StmtSelectById {
+public class _03_StmtSelectById {
 
 	public static void main(String[] args) {
 		
