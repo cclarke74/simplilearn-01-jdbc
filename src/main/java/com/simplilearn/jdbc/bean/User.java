@@ -12,6 +12,18 @@ public class User {
 	Date birth;
 	String status;
 	
+	public User() {
+	}
+
+	public User(String username, String password, String firstName, String lastName, Date birth, String status) {
+		super();
+		this.username = username;
+		this.password = password;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.birth = birth;
+		this.status = status;
+	}
 
 	public int getIdUser() {
 		return idUser;
@@ -70,7 +82,7 @@ public class User {
 	}
 	
 
-	@Override
+
 	public String toString() {
 		return String.format(
 				"User [idUser=%s, username=%s, password=%s, firstName=%s, lastName=%s, birth=%s, status=%s]", idUser,
